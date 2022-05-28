@@ -16,7 +16,7 @@ Następnie folder z szablonem powinien zostać wgrany do poniższej lokalizacji:
 ./concrete/themes/elemental/
 
 # Jak używać
-Po wgraniu szablonu na serwer, Concrete5 sam go wykryje. Należy wejść w _Zaplecze_ 
+Po wgraniu szablonu na serwer Concrete5 sam go wykryje. Należy wejść w _Zaplecze_ 
 i w _Szablony i Motywy_. Wybieramy z listy dostępnych nowo dodany motyw.
 
 # Technologie
