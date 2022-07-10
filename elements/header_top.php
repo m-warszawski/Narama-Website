@@ -3,6 +3,9 @@
 <html lang="<?php echo Localization::activeLanguage() ?>">
 <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--    Boostrap    -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="<?php echo $view->getThemePath()?>/css/bootstrap-modified.css">
     <?php echo $html->css($view->getStylesheet('main.less')) ?>
     <?php
@@ -25,6 +28,7 @@
         }
     </script>
 </head>
+
 <body>
 
 <div class="<?php echo $c->getPageWrapperClass()?>">

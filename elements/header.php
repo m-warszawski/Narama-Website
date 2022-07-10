@@ -10,13 +10,13 @@ $displayThirdColumn = $blocks > 0 || $c->isEditMode();
 <header>
     <div class="container">
         <div class="row">
-            <div class="col-sm-3 col-xs-8">
+            <div class="col-xs-10 col-sm-4 col-md-3 ">
                 <?php
                 $a = new GlobalArea('Header Site Title');
                 $a->display();
                 ?>
             </div>
-            <div class="col-sm-9 col-xs-4">
+            <div class="col-xs-2 col-sm-8 col-md-9">
                 <?php
                 $a = new GlobalArea('Header Navigation');
                 $a->display();

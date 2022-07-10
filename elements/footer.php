@@ -44,23 +44,12 @@ $displayFirstSection = $footerSiteTitleBlocks > 0 || $footerSocialBlocks > 0 || 
                     $a->display();
                     ?>
                 </div>
-<!--                <div class="col-sm-3">-->
-<!--                    --><?php
-//                    $a = new GlobalArea('Footer Navigation');
-//                    $a->display();
-//                    ?>
-<!--                </div>-->
-<!--                <div class="col-sm-3">-->
-<!--                    --><?php
-//                    $a = new GlobalArea('Footer Contact');
-//                    $a->display();
-//                    ?>
-<!--                </div>-->
             </div>
         </div>
     </section>
 </footer>
 
+<!-- Login page button -->
 <!--<footer id="concrete5-brand">-->
 <!--    --><?php //echo Core::make('helper/navigation')->getLogInOutLink() ?>
 <!--</footer>-->
